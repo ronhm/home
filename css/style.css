@@ -70,13 +70,13 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 header {
 	position: relative;
-	min-height: 400px;
+	min-height: 200px;
 	text-align: center;
 	color: #fff;
 	padding: 90px 0;
 }
 header h1 {
-	font-size: 7em;
+	font-size: 5em;
 	margin: 0;
 	line-height: 1;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
@@ -84,25 +84,26 @@ header h1 {
 header h1 span {
 	color: #ff6028;
 }
-header h2 {
-	font-size: 3em;
+header h3 {
+	font-size: 1em;
 	line-height: 1;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	margin: 5px 0 0 0;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
 }
-header h2 span {
+header h3 span {
 	border-bottom: 5px solid #ff6028;
 }
+
 /*--------------------------------------------------------------
 # Content Section
 --------------------------------------------------------------*/
 .content-section {
 	position: relative;
-	padding: 80px 0;
+	padding: 30px 0;
 }
 .content-section .container {
-	max-width: 1500px;
+	max-width: 1000px;
 }
 
 /*--------------------------------------------------------------
@@ -253,7 +254,7 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 }
 .input-icon-wrapper {
 	position: relative;
-	max-width: 800px;
+	max-width: 500px;
 	margin: 0 auto;
 }
 .input-icon {
