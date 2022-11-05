@@ -1966,25 +1966,36 @@ b.highlighted-success {
   }
 }
 footer {
-  max-width: 800px;
-  margin: 150px auto 0 auto;
-  text-align: center;
-  padding: 5px 30px;
-  font-size: 0.9em;
-  color: #fff;
-  position: relative;
-  z-index: 20;
-  text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
+	margin-top: 120px;
+	text-align: center;
+	padding: 5px 0 0 0;
+	color: rgba(255, 255, 255, 0.25);
+	font-size: 0.4em;
+	position: relative;
+	z-index: 10;
 }
-footer a.popup-link,
-footer a.popup-link:visited {
-  font-family: "Ubuntu", sans-serif;
-  color: #efa229;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
+footer .copyright-notice  {
+	margin-top: 3px;
+}
+footer .copyright-notice span {
+	display: block;
+	margin-top: 3px;
+}
+footer a {
+	color: rgba(255, 255, 255, 0.5);
+}
+footer a:hover {
+	color:  rgba(255, 255, 255, 1);
+}
+.f-n-l:after {
+	display: inline-block;
+	content: '|';
+	margin: 0 3px;
+	position: relative;
+	color: rgba(0,0,0,0.2);
+}
+.f-n-l:last-child:after {
+	display: none;
 }
 .video-row {
   position: relative;
