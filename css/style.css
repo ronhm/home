@@ -6,16 +6,16 @@
 # Basics
 --------------------------------------------------------------*/
 ::selection {
-  background: #f9f9f9; /* WebKit/Blink Browsers */
+  background: #1d1d27; /* WebKit/Blink Browsers */
   color: #fff;
 }
 ::-moz-selection {
-  background: #f9f9f9; /* Gecko Browsers */
+  background: #1d1d27; /* Gecko Browsers */
   color: #fff;
 }
 body {
 	overflow-x: hidden;
-	background: #f9f9f9;
+	background: #1d1d27;
 }
 html {
 	overflow-y: scroll;
@@ -74,7 +74,7 @@ header {
 	text-align: center;
 	color: #fff;
 	padding: 90px 0;
-	background:#333;
+	background:#2732c9;
 }
 header h1 {
 	font-size: 3em;
@@ -320,7 +320,7 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 .grid-item img {
 	border-radius: 10px;
 	max-width: 100%;
-	border: 2px solid #444;
+	border: 2px solid #1d1d27;
 }
 .grid-item h4 {
 	font-size: 0.9em;
