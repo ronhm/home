@@ -1,4 +1,33 @@
 $(document).ready(function() {
+    $('.nav-wrapper li').click(function() {
+        $('.nav-wrapper li').removeClass('active');
+        $(this).addClass('active');
+        var active = $('.nav-wrapper li.active span').text();
+        makeactive(active);
+    });
+
+    var bWidth = $(window).width();
+
+    if (bWidth > 580) {
+        $('body').html('<section class="s-wrapper desktop">\
+					<div class="container">\
+						<div class="d-notice-wrapper">\
+							<div class="d-notice">\
+								<span class="material-icons-two-tone mid1">phone_iphone</span>\
+								<h1>Mobile Device Not Detected</h1>\
+								<p>Looks like you are trying to access this website from a desktop/laptop device.</p>\
+								<div class="d-n-i">\
+									<span class="material-icons-two-tone mid2">info</span>\
+									Please re-visit this website from your mobile device.\
+								</div>\
+							</div>\
+						</div>\
+					</div>\
+				</section>');
+    }
+
+});
+$(document).ready(function() {
 	$('#blurred-resources').click(function() {
 		sweetAlert("Error", "Please enter your Username and select your platform.", "error");
 	});
