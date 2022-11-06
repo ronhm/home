@@ -1,26 +1,26 @@
 @font-face {
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/supercell-magic.html");
   src: url("../fonts/supercell-magic-.html#iefix") format("embedded-opentype"),
     url("../fonts/supercell-magic.woff") format("woff"),
     url("../fonts/supercell-magic-2.html") format("truetype"),
-    url("../fonts/supercell-magic-3.html#supercell-magicregular") format("svg");
+    url("../fonts/supercell-magic-3.html#'Montserrat', sans-serif") format("svg");
 }
 @font-face {
-  font-family: "et-line";
-  src: url("../fonts/et-line.html");
-  src: url("../fonts/et-lined41dd41dd41d.html?#iefix")
+  font-family: 'Helvetica Neue',Arial,sans-serif;
+  src: url("../fonts/'Montserrat', sans-serif.html");
+  src: url("../fonts/'Montserrat', sans-serifd41dd41dd41d.html?#iefix")
       format("embedded-opentype"),
-    url("../fonts/et-line-2.html") format("woff"),
-    url("../fonts/et-line-3.html") format("truetype"),
-    url("../fonts/et-line-4.html#et-line") format("svg");
+    url("../fonts/'Montserrat', sans-serif-2.html") format("woff"),
+    url("../fonts/'Montserrat', sans-serif-3.html") format("truetype"),
+    url("../fonts/'Montserrat', sans-serif-4.html#'Montserrat', sans-serif") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 [data-icon]:before {
-  font-family: "et-line";
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   content: attr(data-icon);
   speak: none;
   font-weight: normal;
@@ -131,7 +131,7 @@
 .icon-tumblr,
 .icon-linkedin,
 .icon-dribbble {
-  font-family: "et-line";
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -516,7 +516,7 @@ a:active {
   padding-left: 0;
 }
 body {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 h1,
 h2,
@@ -527,7 +527,7 @@ h6 {
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-weight: 400;
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 	font-weight: 400;
 }
 body {
@@ -538,7 +538,7 @@ body {
   background-position: center center;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Righteous', cursive;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 	font-weight: 400;
 }
 .dotted-pattern {
@@ -648,14 +648,14 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .status-wrapper span {
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .status-wrapper span.font-fix {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 .status-wrapper span.status-highlighted {
   color: #efa229;
@@ -669,7 +669,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-shadow: 0px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 3px 0 #000;
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   margin-bottom: 20px;
 }
 .resources-select-wrapper {
@@ -736,7 +736,7 @@ h1, h2, h3, h4, h5, h6 {
 .selected-amount-wrapper {
   background: rgba(0, 0, 0, 0.3);
   padding: 8px 20px 6px 70px;
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 2px 0 #000;
   font-weight: 700;
@@ -796,7 +796,7 @@ h1, h2, h3, h4, h5, h6 {
 .account-username-item-wrapper input,
 .platform-item-wrapper select {
   background: rgba(0, 0, 0, 0.3);
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 100%;
@@ -844,7 +844,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
 }
 .console-loadbar div {
-  font-family: arial;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   font-size: 17px;
   color: white;
   text-align: right;
@@ -872,7 +872,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #000;
 }
 .resource-1-loadbar div {
-  font-family: arial;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   font-size: 7px;
   color: white;
   text-align: right;
@@ -926,7 +926,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   cursor: pointer;
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 .value-button.btn-disabled {
   border: 1px solid #444;
@@ -968,7 +968,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .panel-title h2 {
   margin: 0;
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   color: #fff;
   font-size: 0.9em;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
@@ -994,7 +994,7 @@ h1, h2, h3, h4, h5, h6 {
     url("../img/btn-generate-right.png"), url("../img/btn-generate-center.png");
   background-size: auto 100%, auto 100%, auto 100%;
   border: none;
-  font-family: supercell-magicregular;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
   color: #fff;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 2px 0 #000;
@@ -1025,7 +1025,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 15px;
   text-align: center;
   font-size: 1em;
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   color: #fff;
@@ -1278,7 +1278,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .console-item-wrapper h5 {
   margin: 0 0 20px 0;
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-transform: uppercase;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
@@ -1286,7 +1286,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fce700;
 }
 .console-item-wrapper .console-item-value {
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   text-transform: uppercase;
@@ -1312,13 +1312,13 @@ h1, h2, h3, h4, h5, h6 {
   top: -5px;
 }
 .console-message {
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .console-normal-text {
   color: #fff;
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   text-transform: uppercase;
@@ -1392,7 +1392,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   letter-spacing: 5px;
   text-shadow: 2px 2px 0 #000;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 .human-verification-inner-wrapper span {
   color: #000;
@@ -1471,7 +1471,7 @@ img.sticky-close {
   display: none;
 }
 .activity-username {
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   color: #fff;
@@ -1491,7 +1491,7 @@ img.sticky-close {
   font-weight: 700;
 }
 .activity-generated-amount {
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   font-weight: 400;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -1555,7 +1555,7 @@ img.sticky-close {
   border-left-color: #000 !important;
   border-right-color: #000 !important;
   color: #fff !important;
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8em !important;
@@ -1579,7 +1579,7 @@ img.sticky-close {
 }
 .livechatEntryUserName {
   color: #efa229;
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.7), -1px -1px 0 rgba(0, 0, 0, 0.7),
     1px -1px 0 rgba(0, 0, 0, 0.7), -1px 1px 0 rgba(0, 0, 0, 0.7),
     1px 1px 0 rgba(0, 0, 0, 0.7);
@@ -1715,7 +1715,7 @@ img.sticky-close {
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   cursor: pointer;
-  font-family: supercell-magicregular;
+font-family: 'Helvetica Neue',Arial,sans-serif;
   color: #fff;
   padding: 1px 20px 8px 20px;
   display: inline-block;
@@ -1741,11 +1741,11 @@ img.sticky-close {
   margin: 20px auto 0 auto;
 }
 .message-wrapper {
-  background: #5a5552;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  border: 2px solid #9e6530;
+  background: #6f6f6f;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #9e6530;
   box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.3) inset;
   -webkit-box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.3) inset;
   -moz-box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.3) inset;
@@ -1759,7 +1759,7 @@ img.sticky-close {
 }
 .message-header h3 {
   margin: 0 0 10px 0;
-  color: #fff;
+  color: #333;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 2px 0 #000;
   font-size: 1.6em;
@@ -1771,15 +1771,15 @@ img.sticky-close {
     1px -1px 0 rgba(0, 0, 0, 0.4), -1px 1px 0 rgba(0, 0, 0, 0.4),
     1px 1px 0 rgba(0, 0, 0, 0.4);
   font-size: 1.1em;
-  color: #fff;
+  color: #333;
   font-weight: 700;
   letter-spacing: 1px;
 }
 b.highlighted {
-  color: #d80000;
+  color: #333;
 }
 b.highlighted-success {
-  color: #4ae18e;
+  color: #333;
 }
 .message-content {
   padding: 0 30px 40px 30px;
@@ -1793,8 +1793,8 @@ b.highlighted-success {
   border: 2px solid #14202a;
 }
 .message-content p.normal-message {
-  font-size: 1.0em;
-  color: #fff;
+  font-size: 1.6em;
+  color: #f4f4f4;
   font-weight: 700;
   display: block;
   min-height: 50px;
@@ -1805,7 +1805,7 @@ b.highlighted-success {
   font-size: 0.9em;
   text-align: center;
   display: block;
-  color: #fff;
+  color: #f4f4f4;
   font-weight: 700;
   line-height: 1.6em;
   display: none;
@@ -1824,14 +1824,14 @@ b.highlighted-success {
   display: none;
 }
 .console-loadbar div {
-  font-family: arial;
+	font-family: 'Helvetica Neue', sans-serif;
   font-size: 15px;
   color: white;
   text-align: right;
   text-shadow: 0px 0px 2px #000;
   text-indent: 9999px;
   overflow: hidden;
-  background: #efa229;
+  background: #1752a1;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -1844,7 +1844,7 @@ b.highlighted-success {
   padding: 100px 40px 100px 40px;
 }
 .desktop-content-wrapper .panel-box-wrapper h1 {
-  color: #efa229;
+  color: #b0b0b0;
 }
 .desktop-content-wrapper img {
   margin: 0 auto 30px auto;
@@ -2017,7 +2017,7 @@ footer a:hover {
   max-width: 800px;
   margin: 0 auto;
   color: #000;
-  background: #efa229;
+  background: #b3b3b3;
   padding: 30px;
   position: relative;
 }
@@ -2217,7 +2217,7 @@ footer a:hover {
   .message-header p,
   .message-content p.normal-message,
   .message-content p.console-message {
-    font-size: 0.75em;
+    font-size: 1.0em;
   }
   .message-header h3 {
     font-size: 1em;
@@ -2237,7 +2237,7 @@ footer a:hover {
     font-size: 1.2em;
   }
   .human-verification-wrapper p {
-    font-size: 0.8em;
+    font-size: 1.0em;
   }
   .input-player-tag {
     top: 26px;

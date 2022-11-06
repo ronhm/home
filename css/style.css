@@ -6,16 +6,16 @@
 # Basics
 --------------------------------------------------------------*/
 ::selection {
-  background: #e25f2a; /* WebKit/Blink Browsers */
+  background: #f9f9f9; /* WebKit/Blink Browsers */
   color: #fff;
 }
 ::-moz-selection {
-  background: #e25f2a; /* Gecko Browsers */
+  background: #f9f9f9; /* Gecko Browsers */
   color: #fff;
 }
 body {
 	overflow-x: hidden;
-	background: #2e2e2d;
+	background: #f9f9f9;
 }
 html {
 	overflow-y: scroll;
@@ -57,12 +57,12 @@ a:hover, a:focus, a:visited, a:active {
 # Typography
 --------------------------------------------------------------*/
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	color: #fff;
 	font-size: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Righteous', cursive;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 400;
 }
 /*--------------------------------------------------------------
@@ -74,15 +74,17 @@ header {
 	text-align: center;
 	color: #fff;
 	padding: 90px 0;
+	background:#333;
 }
 header h1 {
-	font-size: 5em;
+	font-size: 3em;
 	margin: 0;
 	line-height: 1;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 header h1 span {
-	color: #ff6028;
+	color: #fff;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 header h3 {
 	font-size: 1em;
@@ -91,8 +93,15 @@ header h3 {
 	margin: 5px 0 0 0;
 	text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
 }
+header h5 {
+	font-size: 0.9em;
+	line-height: 1;
+	letter-spacing: 1px;
+	margin: 5px 0 0 0;
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+}
 header h3 span {
-	border-bottom: 5px solid #ff6028;
+	border-bottom: 5px solid #f9f9f9;
 }
 
 /*--------------------------------------------------------------
@@ -126,13 +135,13 @@ header h3 span {
 
 button#load-more, .button {
 	padding: 0.5em 1.0em;
-	background: #ff6028;
-	border: 5px solid #ff6028;
+	background: #f3f3f3;
+	border: 3px solid #f3f3f3;
 	width: 100%;
 	border-radius: 7px;
 	background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
-	color: #fff;
-	font-family: 'Righteous', cursive;
+	color: #333;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 	font-size: 16px;
 	text-shadow: 0 1px white;
 	text-transform: uppercase;
@@ -141,8 +150,8 @@ button#load-more, .button {
 }
 
 button#load-more:hover, .button:hover {
-  background-color: #fff;
-  border: 5px solid #ff6028;
+  background-color: #333;
+  border: 3px solid #f3f3f3;
   text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
   color: #222;
 }
@@ -242,15 +251,15 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 --------------------------------------------------------------*/
 .game-search-wrapper {
 	position: relative;
-	margin: 0 0 30px 0;
+	margin: 0 0 20px 0;
 }
 .game-search-wrapper h3 {
-	font-size: 3em;
+	font-size: 1em;
 	text-align: center;
 	margin: 0 0 20px 0;
 }
 .game-search-wrapper h3 span {
-	color: #ff6028;
+	color: #333;
 }
 .input-icon-wrapper {
 	position: relative;
@@ -259,37 +268,41 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 }
 .input-icon {
 	position: absolute;
-	font-size: 2.6em;
-	color: #ff6028;
+	font-size: 1.5em;
+	color: #333;
 	left: 23px;
-	top: 25px;
+	top: 16px;
 }
 .input-style {
-	height: 100px;
-	font-size: 1.8em;
-	color: #fff;
+	height: 50px;
+	font-size: 1em;
+	color: #333;
 	width: 100%;
-	padding: 0 30px 0 85px;
+	padding: 0 20px 3px 70px;
 	border: none;
 	box-shadow: none;
-	background: #111;
+	background: #ebebeb;
 	border-radius: 20px;
 }
 .input-style::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	color: #fff;
-	opacity: 1;
+	color: #989898;
+	opacity: 0.9;
+	font-size: 0.8em;
 }
 .input-style::-moz-placeholder { /* Firefox 19+ */
-	color: #fff;
-	opacity: 1;
+	color: #989898;
+	opacity: 0.9;
+	font-size: 0.8em;
 }
 .input-style:-ms-input-placeholder { /* IE 10+ */
-	color: #fff;
-	opacity: 1;
+	color: #989898;
+	opacity: 0.9;
+	font-size: 0.8em;
 }
 .input-style:-moz-placeholder { /* Firefox 18- */
-	color: #fff;
-	opacity: 1;
+	color: #989898;
+	opacity: 0.9;
+	font-size: 0.8em;
 }
 
 /*--------------------------------------------------------------
@@ -298,20 +311,21 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 .games-grid {
 	position: relative;
 	margin: 0 -15px;
+	
 }
 .grid-item {
 	cursor: pointer;
 	margin-top: 30px;
 }
 .grid-item img {
-	border-radius: 15px;
+	border-radius: 10px;
 	max-width: 100%;
-	border: 5px solid #111;
+	border: 2px solid #444;
 }
 .grid-item h4 {
 	font-size: 0.9em;
 	margin: 0 0 0 0;
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 	text-align: center;
 	color: #fff;
 }
@@ -320,6 +334,7 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 	overflow: hidden;
 }
 .grid-item-info {
+	font-size: 1.2em;
 	margin-top: 10px;
 	position: absolute;
 	bottom: 0;
@@ -461,7 +476,7 @@ footer a:hover {
 	z-index: 5;
 	padding: 22px 10px;
 	margin: 0 auto;
-	color: #fff;
+	color: #e0e0e0;
 	top: -30px;
 }
 .footer-popup-inner-wrapper {
@@ -491,17 +506,17 @@ footer a:hover {
 .footer-popup-wrapper h2 {
 	font-size: 1.4em;
 	margin: 20px 0 5px 0;
-	color: #ff6028;
+	color: #e0e0e0;
 }
 .footer-popup-wrapper p {
-	color: #fff;
+	color: #e0e0e0;
 	font-size: 0.9em;
 	text-align: justify;
 	text-align-last: left;
 	-moz-text-align-last: left;
 }
 .footer-popup-wrapper .input-style {
-	background: #ffbc62;
+	background: #e0e0e0;
 	height: 45px;
 	padding: 0 15px;
 	border-radius: 0;
@@ -518,7 +533,7 @@ footer a:hover {
 	text-align: center;
 	display: block;
 	margin: 0;
-	color: #ffed8d;
+	color: #e0e0e0;
 }
 #msgSubmit {
 	margin-top: 5px;
@@ -539,7 +554,7 @@ footer a:hover {
 	display: block;
 	line-height: 1;
 	font-family: 'BurbankBigCondensed-Bold';
-	color: #fff;
+	color: #e0e0e0;
 	font-size: 2.4em;
 }
 .help-block.with-errors {

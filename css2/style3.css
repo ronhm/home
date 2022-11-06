@@ -1,6 +1,6 @@
 body {
 	overflow-x: hidden;
-	background: #393939;
+	background: #f9f9f9;
 }
 html {
 	overflow-y: scroll;
@@ -17,7 +17,7 @@ textarea, input, a, button {
 # Typography
 --------------------------------------------------------------*/
 body {
-	font-family: 'Exo 2', sans-serif;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
 	font-size: 16px;
 	color: #333;
 }
