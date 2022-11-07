@@ -1,5 +1,6 @@
 @font-face {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/supercell-magic.html");
@@ -9,7 +10,8 @@
     url("../fonts/supercell-magic-3.html#'Montserrat', sans-serif") format("svg");
 }
 @font-face {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   src: url("../fonts/'Montserrat', sans-serif.html");
   src: url("../fonts/'Montserrat', sans-serifd41dd41dd41d.html?#iefix")
       format("embedded-opentype"),
@@ -20,7 +22,8 @@
   font-style: normal;
 }
 [data-icon]:before {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   content: attr(data-icon);
   speak: none;
   font-weight: normal;
@@ -131,7 +134,8 @@
 .icon-tumblr,
 .icon-linkedin,
 .icon-dribbble {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -516,7 +520,8 @@ a:active {
   padding-left: 0;
 }
 body {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -527,7 +532,8 @@ h6 {
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   font-weight: 400;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 body {
@@ -538,7 +544,8 @@ body {
   background-position: center center;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 .dotted-pattern {
@@ -648,14 +655,16 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .status-wrapper span {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .status-wrapper span.font-fix {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 }
 .status-wrapper span.status-highlighted {
   color: #efa229;
@@ -669,7 +678,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-shadow: 0px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 3px 0 #000;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
 }
 .resources-select-wrapper {
@@ -736,7 +746,8 @@ h1, h2, h3, h4, h5, h6 {
 .selected-amount-wrapper {
   background: rgba(0, 0, 0, 0.3);
   padding: 8px 20px 6px 70px;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 2px 0 #000;
   font-weight: 700;
@@ -796,7 +807,8 @@ h1, h2, h3, h4, h5, h6 {
 .account-username-item-wrapper input,
 .platform-item-wrapper select {
   background: rgba(0, 0, 0, 0.3);
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 100%;
@@ -844,7 +856,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
 }
 .console-loadbar div {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   font-size: 17px;
   color: white;
   text-align: right;
@@ -872,7 +885,8 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #000;
 }
 .resource-1-loadbar div {
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   font-size: 7px;
   color: white;
   text-align: right;
@@ -885,7 +899,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2px;
 }
 .resource-2-loadbar div {
-  font-family: arial;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   font-size: 7px;
   color: white;
   text-align: right;
@@ -926,7 +941,8 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   cursor: pointer;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 }
 .value-button.btn-disabled {
   border: 1px solid #444;
@@ -968,7 +984,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .panel-title h2 {
   margin: 0;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 0.9em;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
@@ -994,7 +1011,8 @@ h1, h2, h3, h4, h5, h6 {
     url("../img/btn-generate-right.png"), url("../img/btn-generate-center.png");
   background-size: auto 100%, auto 100%, auto 100%;
   border: none;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   color: #fff;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 2px 0 #000;
@@ -1025,7 +1043,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 15px;
   text-align: center;
   font-size: 1em;
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   color: #fff;
@@ -1256,7 +1275,8 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 .messages-console-wrapper {
   padding: 20px 0 10px 0;
-  font-family: "Ubuntu", sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 0.9em;
@@ -1278,7 +1298,8 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 .console-item-wrapper h5 {
   margin: 0 0 20px 0;
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
@@ -1286,7 +1307,8 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   color: #fce700;
 }
 .console-item-wrapper .console-item-value {
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   text-transform: uppercase;
@@ -1312,13 +1334,15 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   top: -5px;
 }
 .console-message {
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .console-normal-text {
   color: #fff;
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   text-transform: uppercase;
@@ -1361,7 +1385,7 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
 .console-item-wrapper h5.console-resource-title {
   position: relative;
   font-size: 1.6em;
-  color: #fce700;
+  color: #f4f4f4;
 }
 .human-verification-wrapper {
   position: absolute;
@@ -1370,7 +1394,7 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   z-index: 15;
   display: none;
   height: 100%;
-  color: #fff;
+  color: #f4f4f4;
   width: 100%;
   text-align: center;
   -webkit-border-radius: 20px;
@@ -1471,7 +1495,8 @@ img.sticky-close {
   display: none;
 }
 .activity-username {
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   color: #fff;
@@ -1491,7 +1516,8 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
 }
 .activity-generated-amount {
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -1555,7 +1581,7 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   border-left-color: #000 !important;
   border-right-color: #000 !important;
   color: #fff !important;
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8em !important;
@@ -1579,7 +1605,7 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 .livechatEntryUserName {
   color: #efa229;
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.7), -1px -1px 0 rgba(0, 0, 0, 0.7),
     1px -1px 0 rgba(0, 0, 0, 0.7), -1px 1px 0 rgba(0, 0, 0, 0.7),
     1px 1px 0 rgba(0, 0, 0, 0.7);
@@ -1715,7 +1741,7 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   text-shadow: 0px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   cursor: pointer;
-font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
   color: #fff;
   padding: 1px 20px 8px 20px;
   display: inline-block;
@@ -1741,7 +1767,7 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   margin: 20px auto 0 auto;
 }
 .message-wrapper {
-  background: #6f6f6f;
+  background: #f4f4f4;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -1750,10 +1776,10 @@ font-family: 'Helvetica Neue',Arial,sans-serif;
   -webkit-box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.3) inset;
   -moz-box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.3) inset;
   position: relative;
-  border: 2px solid #000;
+  border: 1px solid #000;
 }
 .message-header {
-  padding: 30px 50px 30px 50px;
+  padding: 10px 10px 10px 10px;
   position: relative;
   text-align: center;
 }
@@ -1785,31 +1811,30 @@ b.highlighted-success {
   padding: 0 30px 40px 30px;
 }
 .message-content-inner-wrapper {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  background: #e7e7d6;
-  padding: 20px 15px;
-  border: 2px solid #14202a;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #f4f4f4;
+  padding: 15px 15px;
+  border: 1px solid #f4f4f4;
 }
 .message-content p.normal-message {
-  font-size: 1.6em;
+  font-size: 1.5em;
   color: #f4f4f4;
   font-weight: 700;
   display: block;
-  min-height: 50px;
+  min-height: 10px;
   line-height: 1.6em;
   display: none;
 }
 .message-content p.console-message {
-  font-size: 0.9em;
+  font-size: 1.5em;
   text-align: center;
-  display: block;
   color: #f4f4f4;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.6em;
   display: none;
-  min-height: 30px;
+  min-height: 10px;
 }
 .typed-cursor {
   display: none;
@@ -1824,9 +1849,10 @@ b.highlighted-success {
   display: none;
 }
 .console-loadbar div {
-	font-family: 'Helvetica Neue', sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
   font-size: 15px;
-  color: white;
+  color: #333;
   text-align: right;
   text-shadow: 0px 0px 2px #000;
   text-indent: 9999px;
@@ -2187,7 +2213,7 @@ footer a:hover {
     font-size: 2em;
   }
   .human-verification-wrapper #fountainG {
-    margin: 30px auto;
+    margin: 10px auto;
   }
   .human-verification-wrapper p {
     font-size: 1em;

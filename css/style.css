@@ -57,12 +57,14 @@ a:hover, a:focus, a:visited, a:active {
 # Typography
 --------------------------------------------------------------*/
 body {
-	font-family: 'Helvetica Neue', sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 	color: #fff;
 	font-size: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Helvetica Neue', sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 /*--------------------------------------------------------------
@@ -74,7 +76,7 @@ header {
 	text-align: center;
 	color: #fff;
 	padding: 90px 0;
-	background:#2732c9;
+	background:#3b27cd;
 }
 header h1 {
 	font-size: 3em;
@@ -84,7 +86,8 @@ header h1 {
 }
 header h1 span {
 	color: #fff;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 }
 header h3 {
 	font-size: 1em;
@@ -141,7 +144,8 @@ button#load-more, .button {
 	border-radius: 7px;
 	background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
 	color: #333;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	text-shadow: 0 1px white;
 	text-transform: uppercase;
@@ -254,7 +258,7 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 	margin: 0 0 20px 0;
 }
 .game-search-wrapper h3 {
-	font-size: 1em;
+	font-size: 0.7em;
 	text-align: center;
 	margin: 0 0 20px 0;
 }
@@ -269,38 +273,38 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 .input-icon {
 	position: absolute;
 	font-size: 1.5em;
-	color: #333;
+	color: #636369;
 	left: 23px;
 	top: 16px;
 }
 .input-style {
 	height: 50px;
-	font-size: 1em;
-	color: #333;
+	font-size: 0.5em;
+	color: #fff;
 	width: 100%;
-	padding: 0 20px 3px 70px;
+	padding: 0 20px 3px 60px;
 	border: none;
 	box-shadow: none;
-	background: #ebebeb;
+	background: #15151e;
 	border-radius: 20px;
 }
 .input-style::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	color: #989898;
+	color: #636369;
 	opacity: 0.9;
 	font-size: 0.8em;
 }
 .input-style::-moz-placeholder { /* Firefox 19+ */
-	color: #989898;
+	color: #636369;
 	opacity: 0.9;
 	font-size: 0.8em;
 }
 .input-style:-ms-input-placeholder { /* IE 10+ */
-	color: #989898;
+	color: #636369;
 	opacity: 0.9;
 	font-size: 0.8em;
 }
 .input-style:-moz-placeholder { /* Firefox 18- */
-	color: #989898;
+	color: #636369;
 	opacity: 0.9;
 	font-size: 0.8em;
 }
@@ -315,7 +319,7 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 }
 .grid-item {
 	cursor: pointer;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 .grid-item img {
 	border-radius: 10px;
@@ -325,7 +329,8 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 .grid-item h4 {
 	font-size: 0.9em;
 	margin: 0 0 0 0;
-  font-family: 'Helvetica Neue',Arial,sans-serif;
+font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
 	text-align: center;
 	color: #fff;
 }
@@ -607,7 +612,7 @@ footer a:hover {
 		font-size: 1.8em;
 	}
 	.content-section {
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	.input-style {
 		font-size: 1.6em;
