@@ -267,7 +267,7 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 }
 .input-icon-wrapper {
 	position: relative;
-	max-width: 500px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 .input-icon {
@@ -315,23 +315,25 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 .games-grid {
 	position: relative;
 	margin: 0 -15px;
-	
 }
 .grid-item {
 	cursor: pointer;
 	margin-top: 20px;
+	width: 100%;
 }
 .grid-item img {
 	border-radius: 10px;
-	max-width: 100%;
-	border: 2px solid #1d1d27;
+	width: 15%;
+	position: relative;
+	float:left;
+	border: 3px solid #1d1d27;
 }
 .grid-item h4 {
 	font-size: 0.9em;
 	margin: 0 0 0 0;
-font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+	font-family: Roboto, system-ui, -apple-system, Segoe UI, Ubuntu,
     Cantarell, Noto Sans, sans-serif, Noto, Helvetica, Arial, sans-serif;
-	text-align: center;
+	text-align: left;
 	color: #fff;
 }
 .grid-item-inner {
@@ -339,41 +341,39 @@ font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
 	overflow: hidden;
 }
 .grid-item-info {
-	font-size: 1.2em;
-	margin-top: 10px;
-	position: absolute;
+	font-size: 1.5em;
+	float:right;
+	position: relative;
+	margin-top: 1px;
 	bottom: 0;
+	width: 85%;
+	padding: 0 10px;
+	background: #1d1d27;
+}
+.grid-item-infop {
+	font-size: 0.5em;
+	position: relative;
 	width: 100%;
-	padding: 10px 10px;
-	background: rgba(0, 0, 0, 0.8);
-	-webkit-border-bottom-right-radius: 15px;
-	-webkit-border-bottom-left-radius: 15px;
-	-moz-border-radius-bottomright: 15px;
-	-moz-border-radius-bottomleft: 15px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	-webkit-transition: all 0.2s ease-in-out 0s;
-	-moz-transition: all 0.2s ease-in-out 0s;
-	-ms-transition: all 0.2s ease-in-out 0s;
-	-o-transition: all 0.2s ease-in-out 0s;
-	transition: all 0.2s ease-in-out 0s;
+	padding: 1px 2px;
+	background: #1d1d27;
 }
 .grid-item:hover .grid-item-info {
 	padding: 40px 10px;
 }
 .generes-wrapper {
 	position: relative;
-	display: table;
+
 	margin: 0 auto;
 }
 .genere-tag {
-	text-transform: uppercase;
-	font-size: 8px;
-	border: 1px solid #ff6028;
-	padding: 4px;
-	display: inline-block;
-	color: #fff;
-	border-radius: 7px;
+	font-size: 1.5em;
+	float:right;
+	position: relative;
+	margin-top: 1px;
+	bottom: 0;
+	width: 85%;
+	padding: 5px 5px;
+	background: #1d1d27;
 }
 
 /*--------------------------------------------------------------
