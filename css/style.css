@@ -345,7 +345,6 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 	float:right;
 	position: relative;
 	margin-top: 1px;
-	bottom: 0;
 	width: 85%;
 	padding: 0 10px;
 	background: #1d1d27;
