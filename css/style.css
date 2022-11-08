@@ -320,6 +320,7 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 	cursor: pointer;
 	margin-top: 10px;
 	width: 100%;
+	height: 70px;
 }
 .grid-item img {
 	border-radius: 10px;
