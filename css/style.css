@@ -320,7 +320,6 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 	cursor: pointer;
 	margin-top: 10px;
 	width: 100%;
-	height: 70px;
 }
 .grid-item img {
 	border-radius: 10px;
@@ -359,21 +358,6 @@ button#load-more-group button#load-more:last-child { border-radius: 0 0.5em 0.5e
 }
 .grid-item:hover .grid-item-info {
 	padding: 40px 10px;
-}
-.generes-wrapper {
-	position: relative;
-
-	margin: 0 auto;
-}
-.genere-tag {
-	font-size: 1.5em;
-	float:right;
-	position: relative;
-	margin-top: 1px;
-	bottom: 0;
-	width: 85%;
-	padding: 5px 5px;
-	background: #1d1d27;
 }
 
 /*--------------------------------------------------------------
