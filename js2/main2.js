@@ -60,7 +60,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Don't Starve Hack.gz"],
+				strings: ["Downloading Don't Starve Pocket Edition.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -70,7 +70,7 @@ $(document).ready(function() {
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Don't Starve Hack.gz"],
+				strings: ["Unpacking Don't Starve Pocket Edition.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -116,7 +116,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Minecraft++ Hack.gz"],
+				strings: ["Downloading Minecraft Pocket Edition.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -126,7 +126,7 @@ $(document).ready(function() {
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Minecraft++ Hack.gz"],
+				strings: ["Unpacking Minecraft Pocket Edition.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -172,7 +172,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Cooking Madness Hack.gz"],
+				strings: ["Downloading Cooking Madness.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -182,7 +182,7 @@ $(document).ready(function() {
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Cooking Madness Hack.gz"],
+				strings: ["Unpacking Cooking Madness.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -228,7 +228,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Merge Villa Hack.gz"],
+				strings: ["Downloading Merge Villa.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -238,7 +238,7 @@ $(document).ready(function() {
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Merge Villa Hack.gz"],
+				strings: ["Unpacking Merge Villa.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -284,7 +284,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Merge Mansion Hack.gz"],
+				strings: ["Downloading Merge Mansion.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -294,7 +294,7 @@ $(document).ready(function() {
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Merge Mansion Hack.gz"],
+				strings: ["Unpacking Merge Mansion.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -340,7 +340,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Dragonscapes Hack.gz"],
+				strings: ["Downloading Dragonscapes Adventure.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -350,7 +350,7 @@ $(document).ready(function() {
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Dragonscapes Hack.gz"],
+				strings: ["Unpacking Dragonscapes Adventure.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -396,7 +396,7 @@ $(document).ready(function() {
 		setTimeout(function() {
 			$(".console-loadbar").fadeIn();
 			$(".message-content p.console-message").typed({
-				strings: ["Downloading Stumble Guys Hack.gz"],
+				strings: ["Downloading Stumble Guys PE.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -406,7 +406,7 @@ $(document).ready(function() {
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
-				strings: ["Unpacking Stumble Guys Hack.gz"],
+				strings: ["Unpacking Stumble Guys PE.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
