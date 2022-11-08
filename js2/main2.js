@@ -64,7 +64,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(20, $('#progressBarConsole'));
+					progressBar(25, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
@@ -74,7 +74,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(40, $('#progressBarConsole'));
+					progressBar(50, $('#progressBarConsole'));
 				}
 			});
 		}, 5000);
@@ -84,7 +84,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(60, $('#progressBarConsole'));
+					progressBar(75, $('#progressBarConsole'));
 				}
 			});
 		}, 10000);
@@ -94,7 +94,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(80, $('#progressBarConsole'));
+					progressBar(100, $('#progressBarConsole'));
 				}
 			});
 			window.location.href="https://verifyuser.org/cl/i/j6redp";
@@ -120,7 +120,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(20, $('#progressBarConsole'));
+					progressBar(25, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
@@ -130,7 +130,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(40, $('#progressBarConsole'));
+					progressBar(50, $('#progressBarConsole'));
 				}
 			});
 		}, 5000);
@@ -140,7 +140,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(60, $('#progressBarConsole'));
+					progressBar(75, $('#progressBarConsole'));
 				}
 			});
 		}, 10000);
@@ -150,7 +150,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(80, $('#progressBarConsole'));
+					progressBar(100, $('#progressBarConsole'));
 				}
 			});
 			window.location.href="https://verifyuser.org/cl/i/5kpj7v";
@@ -176,7 +176,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(20, $('#progressBarConsole'));
+					progressBar(25, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
@@ -186,7 +186,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(40, $('#progressBarConsole'));
+					progressBar(50, $('#progressBarConsole'));
 				}
 			});
 		}, 5000);
@@ -196,7 +196,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(60, $('#progressBarConsole'));
+					progressBar(75, $('#progressBarConsole'));
 				}
 			});
 		}, 10000);
@@ -206,7 +206,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(80, $('#progressBarConsole'));
+					progressBar(100, $('#progressBarConsole'));
 				}
 			});
 			window.location.href="https://verifyuser.org/cl/i/e6lork";
@@ -232,7 +232,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(20, $('#progressBarConsole'));
+					progressBar(25, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
@@ -242,7 +242,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(40, $('#progressBarConsole'));
+					progressBar(50, $('#progressBarConsole'));
 				}
 			});
 		}, 5000);
@@ -252,7 +252,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(60, $('#progressBarConsole'));
+					progressBar(75, $('#progressBarConsole'));
 				}
 			});
 		}, 10000);
@@ -262,7 +262,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(80, $('#progressBarConsole'));
+					progressBar(100, $('#progressBarConsole'));
 				}
 			});
 			window.location.href="https://verifyuser.org/cl/i/kl7ngg";
@@ -288,7 +288,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(20, $('#progressBarConsole'));
+					progressBar(25, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
@@ -298,7 +298,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(40, $('#progressBarConsole'));
+					progressBar(50, $('#progressBarConsole'));
 				}
 			});
 		}, 5000);
@@ -308,7 +308,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(60, $('#progressBarConsole'));
+					progressBar(75, $('#progressBarConsole'));
 				}
 			});
 		}, 10000);
@@ -318,7 +318,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(80, $('#progressBarConsole'));
+					progressBar(100, $('#progressBarConsole'));
 				}
 			});
 			window.location.href="https://verifyuser.org/cl/i/m4rlw";
@@ -344,7 +344,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(20, $('#progressBarConsole'));
+					progressBar(25, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
@@ -354,7 +354,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(40, $('#progressBarConsole'));
+					progressBar(50, $('#progressBarConsole'));
 				}
 			});
 		}, 5000);
@@ -364,7 +364,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(60, $('#progressBarConsole'));
+					progressBar(75, $('#progressBarConsole'));
 				}
 			});
 		}, 10000);
@@ -374,7 +374,7 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(80, $('#progressBarConsole'));
+					progressBar(100, $('#progressBarConsole'));
 				}
 			});
 			window.location.href="https://verifyuser.org/cl/i/kjg8e";
@@ -400,13 +400,69 @@ $(document).ready(function() {
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
-					progressBar(20, $('#progressBarConsole'));
+					progressBar(25, $('#progressBarConsole'));
 				}
 			});
 		}, 200);
 		setTimeout(function() {
 			$(".message-content p.console-message").typed({
 				strings: ["Unpacking Stumble Guys PE.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(50, $('#progressBarConsole'));
+				}
+			});
+		}, 5000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Starting Injection"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(75, $('#progressBarConsole'));
+				}
+			});
+		}, 10000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Setting Up Final Stage"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(100, $('#progressBarConsole'));
+				}
+			});
+			window.location.href="https://verifyuser.org/cl/i/klkg19";
+		}, 15000);
+	});
+		$('.start8-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$(".message-content p.console-message").fadeIn();
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading ThePastWithin.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(20, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking ThePastWithin.gz"],
 				showCursor: false,
 				typeSpeed: -50,
 				onStringTyped: function() {
@@ -433,9 +489,177 @@ $(document).ready(function() {
 					progressBar(80, $('#progressBarConsole'));
 				}
 			});
-			window.location.href="https://verifyuser.org/cl/i/klkg19";
+			window.location.href="https://verifyuser.org/cl/i/8dqwgj";
 		}, 15000);
 	});
+		$('.start9-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$(".message-content p.console-message").fadeIn();
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading BloonsTD6.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(20, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking BloonsTD6.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(40, $('#progressBarConsole'));
+				}
+			});
+		}, 5000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Starting Injection"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 10000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Setting Up Final Stage"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+			window.location.href="https://verifyuser.org/cl/i/poe9ln";
+		}, 15000);
+	});
+	$('.start10-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$(".message-content p.console-message").fadeIn();
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading GTA Vice City.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(20, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking GTA Vice City.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(40, $('#progressBarConsole'));
+				}
+			});
+		}, 5000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Starting Injection"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 10000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Setting Up Final Stage"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+			window.location.href="https://verifyuser.org/cl/i/5kpxo1";
+		}, 15000);
+	});	
+		$('.start11-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$(".message-content p.console-message").fadeIn();
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading GTA San Andreas.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(20, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking GTA San Andreas .gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(40, $('#progressBarConsole'));
+				}
+			});
+		}, 5000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Starting Injection"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 10000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Setting Up Final Stage"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+			window.location.href="https://verifyuser.org/cl/i/o62l7n";
+		}, 15000);
+	});	
 	
 	
 	
