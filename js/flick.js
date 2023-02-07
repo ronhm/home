@@ -22,7 +22,7 @@ function FLICK(LINK) {
 			clearInterval(interval);
 			setTimeout(function() {
 				window.location.href = LINK;
-			}, 5000)
+			}, 2500)
 		}
 	}, 150)
 }
