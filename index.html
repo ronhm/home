@@ -3,7 +3,14 @@
     <head>
         <title>RONPLAY.site - Ultimate Apps Tweak</title>
      <meta charset="UTF-8" />
-     <meta http-equiv="refresh" content="0; URL=index-a.html" />
+    <script>
+var isMobile = /iPhone|iPad|iPod|Android|WebOS|iOS/i.test(navigator.userAgent);
+if(isMobile){
+  window.location = "index-o.html";
+}else{
+  window.location = "index-a.html";
+}
+</script>
    </head>
    <body>
      <p>If you are not redirected within 3 seconds, click <a href="https://ronplay.site">here</a> to go to Ronplay homepage.</p>
