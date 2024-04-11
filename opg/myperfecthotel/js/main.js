@@ -263,7 +263,7 @@ $(document).ready(function() {
                 $(this).removeClass('bounce animated');
             });
             $(".message-content p.console-message").typed({
-                strings: ["<span class='console-message-connected-item'>" + $console_message_resource1_msg + "</span> Diamond Added Successfully"],
+                strings: ["<span class='console-message-connected-item'>" + $console_message_resource1_msg + "</span> Cash Added Successfully"],
                 showCursor: false,
                 typeSpeed: -50,
                 onStringTyped: function() {
@@ -288,7 +288,7 @@ $(document).ready(function() {
                 });
             }, 500);
             $(".message-content p.console-message").typed({
-                strings: ["Adding <span class='console-message-connected-item'>" + $console_message_resource2_msg + "</span> Emerald to <span class='console-message-connected-item'>" + $console_message_username_msg + "</span>"],
+                strings: ["Adding <span class='console-message-connected-item'>" + $console_message_resource2_msg + "</span> Diamond to <span class='console-message-connected-item'>" + $console_message_username_msg + "</span>"],
                 showCursor: false,
                 typeSpeed: -50,
                 onStringTyped: function() {
@@ -301,7 +301,7 @@ $(document).ready(function() {
                 $(this).removeClass('bounce animated');
             });
             $(".message-content p.console-message").typed({
-                strings: ["<span class='console-message-connected-item'>" + $console_message_resource2_msg + "</span> Emerald Added Successfully"],
+                strings: ["<span class='console-message-connected-item'>" + $console_message_resource2_msg + "</span> Diamond Added Successfully"],
                 showCursor: false,
                 typeSpeed: -50,
                 onStringTyped: function() {
