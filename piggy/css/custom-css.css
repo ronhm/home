@@ -1,0 +1,135 @@
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.ludy-options {
+    display: none;
+    padding: 10px;
+}
+
+.ludy-trigger, .ludy-options a {
+    -moz-box-shadow: inset 0px 1px 0px 0px #FFE7AB;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #FFE7AB;
+    box-shadow: inset 0px 1px 0px 0px #FFE7AB;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #EFC900), color-stop(1, #FF9900));
+    background: -moz-linear-gradient(top, #EFC900 5%, #00A787 100%);
+    background: -webkit-linear-gradient(top, #EFC900 5%, #FF9900 100%);
+    background: -o-linear-gradient(top, #EFC900 5%, #FF9900 100%);
+    background: -ms-linear-gradient(top, #EFC900 5%, #FF9900 100%);
+    background: linear-gradient(to bottom, #EFC900 5%,#FF9900 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFC900', endColorstr='#FF9900',GradientType=0);
+    background-color: #EFC900;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #FFEB00;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    outline: 0;
+    font-size: 17px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.ludy-trigger {
+    margin-bottom: 10px;
+}
+
+.ludy-options a {
+    display: block;
+}
+
+.ludy-trigger:hover, .ludy-options a:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FFD334), color-stop(1, #FFA926));
+    background: -moz-linear-gradient(top, #FFD334 5%, #FFA926 100%);
+    background: -webkit-linear-gradient(top, #FFD334 5%, #FFA926 100%);
+    background: -o-linear-gradient(top, #FFD334 5%, #FFA926 100%);
+    background: -ms-linear-gradient(top, #FFD334 5%, #FFA926 100%);
+    background: linear-gradient(to bottom, #FFD334 5%,#FFA926 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD334', endColorstr='#FFA926',GradientType=0);
+    background-color: #FFB400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.ludy-options a {
+    font-size: 15px;
+    padding: 6px 24px;
+    margin-bottom: 10px;
+}
+
+.panel-default > .panel-heading {
+    background-color: #082A47;
+    color: #ebebeb;
+}
+
+.panel {
+    background-color: #006DAF;
+}
+
+.input-group-addon {
+    background-color: #082A47;
+}
+
+.input-group-addon {
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    color: #2b3e50;
+    text-align: center;
+    background-color: #082A47;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.btn-success {
+    background-color: #4CB300;
+    font-weight: 700 !important;
+}
+
+.btn-success:hover {
+    background-color: #57CE00;
+}
+
+.label-default {
+    background-color: #006DAF;
+}
+
+.btn-primary {
+    background-color: #0093EC;
+}
+
+.btn-primary:hover {
+    background-color: #15A2F7;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #0072B7;
+    border-color: transparent;
+}
+
+.btn-default:hover {
+    background-color: #0381CE;
+}
+
+.modal-dialog {
+    margin-bottom: 0px!important;
+}
+
+.modal-header, .modal-footer {
+    background-color: #082A47;
+    z-index: 9999999;
+    position: relative;
+}
+
+.modal-body {
+    background-color: #006DAF;
+}
