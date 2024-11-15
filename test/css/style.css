@@ -1,0 +1,241 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+a:hover, a:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.header {
+	background: linear-gradient(#08458f 0%, #08458f 100%);
+	height: 120px;
+	text-align: center;
+}
+
+.header svg {
+	color: #333;
+	font-size: 62px;
+	vertical-align: middle;
+	margin-top: 25px;
+}
+.main {
+	padding: 10px;
+	width: 100%;
+}
+.search input {
+	box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
+	background-color: #f1f1f1;
+	border-radius: 1rem;
+	color: #fff;
+	border: 0;
+	height: 50px;
+	line-height: 32px;
+	width: 100%;
+	font-size: 17px;
+	padding: 15px;
+	border: 1px solid rgba(0,0,0,.125);
+}
+.apps ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.apps ul li a {
+	line-height: 18px;
+	display: block;
+	height: 70px;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 5px 10px;
+}
+.avatar img {
+	float: left;
+	height: 42px;
+	width: 42px;
+	margin-top: 8px;
+	margin-right: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.app {
+	color: #333;
+	font-size: 16px;
+}
+.name {
+	margin-top: 2px;
+	font-size: 12px;
+	color: #0096bc;
+}
+.description {
+	font-size: 12px;
+	color: #8e8e93;
+}
+.righticon {
+	float: right;
+	margin-top: -30px;
+	color: #d4d4d4;
+}
+.footer {
+	background: linear-gradient(-47deg, #000000 0%, #29292a 100%);
+	/* position: absolute; */
+	width: 100%;
+	height: 55px;
+	bottom: 0;
+	text-align: center;
+}
+.footer svg {
+	color: #fff;
+	vertical-align: middle;
+	font-size: 28px;
+	margin-top: 10px;
+}
+.phone {
+	background: url(../img/phone.png) no-repeat;
+	width: 210px;
+	height: 183px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+.avatar-modal img {
+	width: 33px;
+	height: 33px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+	border-radius: 25%;
+	border-radius: 20%;
+}
+.name-modal {
+    margin-top: 2px;
+    color: #fff;
+    font-size: 8px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.icon-modal {
+	margin-top: 43px;
+	margin-left: 14px;
+    width: 50px;
+    text-align: center;
+}
+.modal-body h1 {
+	font-size: 26px;
+	font-weight: 600;
+	padding: 15px 0;
+}
+.modal-body p {
+	font-size: 13px;
+}
+.modal-btn {
+	padding-bottom: 30%;
+}
+.modal-btn a {
+	display: inline-block;
+	color: #fff!important;
+	background: linear-gradient(-47deg, #3187e8 0%, #2846dc 100%);
+	padding: 15px 0;
+	width: 95%;
+	font-size: 16px;
+	margin-top: 30px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+.animate-bottom {
+	position: relative;
+	animation: animatebottom 0.4s;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/loader.png) center no-repeat #3187e8;
+}
+.modal-load {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	pointer-events: auto;
+	background-clip: padding-box;
+	outline: 0;
+	padding: 10px;
+	background: #FFF;
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+@media screen and (max-width: 720px) {
+	.modal-load {
+		width: 60%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.modal-load {
+		width: 60%;
+	}
+}
+.modal-load p {
+	margin: 0;
+	padding: 5px 0;
+	font-size: 15px;
+}
+.modal-load p:first-child {
+	font-size: 18px;
+	font-weight: 600;
+}

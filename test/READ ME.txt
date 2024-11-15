@@ -1,0 +1,2 @@
+index-a.html = locker cpabuild (adbluemedia)
+index-o.html = locker ogads
